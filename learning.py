@@ -58,6 +58,8 @@ print('problem driven')
 #we don't have to use double cot.
 print(5)
 
+
+
 #for swapping the numbers 
 #if wants to make the value of a to b and the value of b to a then we will swap the numbers by using the swapping function
 a=input("enter your first number:")
@@ -67,6 +69,9 @@ a=b
 b=third
 print("a=",a)
 print("b=",a)
+
+
+
 
 #using python to perform mathematical computation.
 #print(x+y)                          #for addition
@@ -82,6 +87,26 @@ print(5 + 6)
 x=int(input("enter your first number:"))
 y=int(input("enter your second number:"))
 print(x+y)
+
+
+
+
+
+
+#this + sign can also be used to concatenate the two different things such aS STRING and a number.
+a=input("enter your first number:")
+b=input("enter your second number:")
+third=a
+a=b
+b=third
+print("a=" + b)
+print("b=" + b)
+
+#this is used to concatenate a string and a number.
+
+
+
+
 
 
 #for substraction we use - sign in between the two numbers.
@@ -453,7 +478,6 @@ turtle.right(90)
 turtle.forward(100)
 turtle.right(90)
 turtle.forward(100)
-turtle.exit()
 
 
 
@@ -609,9 +633,45 @@ sum=1+2+3+4+5+6+7
 # using the lowercase and uppercase in betweeen such as numberOFStudents.this naming style is known as camelcase because the uppercase characters in the name resemble a camel's hump.
 
 
+#camel case:1 word in betwwen is uppercase characters
+#myName=ravi     
+
+
+#snake case: __ this character is used after every character for multiword lines.
+#my_name_is_=ravi                    used for multiple words in sn 1 variable
+
+
+#pascalcase: every character of first word in the line is uppercase character.
+# MyNameIsRavi=1
+
+
 
                                   #variables,assignment statements and expressions
 
+#we can name a variable like this :
+#1. hello
+#2. hello_1
+#3. hello1
+#4. HELLO
+#5. 1 
+#6. Roll_No
+#7. SL_n6
+
+
+
+#we cannot give name to variables like this :
+#1. 1hello
+#2. 1_hello
+#3. no special characters can be used rather than ____ this
+   #hello??
+   #(hello)
+ # roll no
+#4. 1=a 
+"age"=1
+print(""age"")
+   
+   
+   
 #variables:
           #variables are used to reference value that may be changed in the program.
 #variables are the name that reference value stored innmemory.
