@@ -58,7 +58,15 @@ print('problem driven')
 #we don't have to use double cot.
 print(5)
 
-
+#for swapping the numbers 
+#if wants to make the value of a to b and the value of b to a then we will swap the numbers by using the swapping function
+a=input("enter your first number:")
+b=input("enter your second number:")
+third=a
+a=b
+b=third
+print("a=",a)
+print("b=",a)
 
 #using python to perform mathematical computation.
 #print(x+y)                          #for addition
