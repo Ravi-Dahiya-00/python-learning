@@ -1031,7 +1031,7 @@ print("mango is a ",len1,"letter word.")
 #example of string as an array
 pie="applepie"
 print(pie[0:5])  #this will print the first 5 letters of the string.
-#including 0 but not 5. b
+#including 0 but not 5.
 
 
 
