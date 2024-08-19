@@ -627,10 +627,25 @@ sum=1+2+3+4+5+6+7
 
 
 
+
+
+
+#what is variable and why we use it????
+#variable is like a container that holds data.
+#creating a variable is like creating a placeholder in memory
+# and assigning it some value.
+#in python,variable is created the moment you assign a value to it.
+
+#variable holds.
+#this is required in programming to do various operation without causing an error.
+
+
+
 #variable naming convention:
                           #use lower case for variable names,as in radius and area.
 
 # using the lowercase and uppercase in betweeen such as numberOFStudents.this naming style is known as camelcase because the uppercase characters in the name resemble a camel's hump.
+
 
 
 #camel case:1 word in betwwen is uppercase characters
@@ -647,6 +662,8 @@ sum=1+2+3+4+5+6+7
 
 
                                   #variables,assignment statements and expressions
+
+
 
 #we can name a variable like this :
 #1. hello
@@ -667,9 +684,12 @@ sum=1+2+3+4+5+6+7
    #(hello)
  # roll no
 #4. 1=a 
-"age"=1
-print(""age"")
+#5. "age"
    
+   
+   
+# there are some reserved words that cannot be used as a variables.
+
    
    
 #variables:
@@ -818,14 +838,10 @@ print(
     sep="~",
     end="thanks",
 )
-#what is variable and why we use it????
-#variable is like a container that holds data.
-#creating a variable is like creating a placeholder in memory
-# and assigning it some value.
-#in python,variable is created the moment you assign a value to it.
 
-#variable holds.
-#this is required in programming to do various operation without causing an error.
+
+
+
 
 #types of data type in python
 #1. numeric data type
@@ -907,6 +923,15 @@ print(tuple1)
 a = {'name': 'Ravi', 'age': '17', 'canvote': 'true'}
 
 print(a)
+
+
+
+#we can check the data type of any variable by using type() function.
+var_a=2
+print(type(var_a))
+#here var_a is objector instance of this class int.
+
+
 
 print(2 + 8)  #addition of two numbers. +
 print(9 - 5)  #substraction of two numbers. -
