@@ -159,3 +159,23 @@ print(list(range3))  # Output: [0, 2, 4, 6, 8, 10]
 # Looping through the range and printing the numbers
 for num in range(5):
     print(num)
+
+
+
+
+
+
+
+
+
+#what is mapped data type????
+#mapped data type specifies the next value like dict,dict.
+
+#dict represents the dict value.
+#dict represents the dict value.
+
+#exaple of mapped data type.
+a = {'name': 'Ravi', 'age': '17', 'canvote': 'true'}
+
+print(a)
+

@@ -54,3 +54,17 @@ print(p/q)
 #computeExpression.py
 
 print((10.5 + 2*3) / (45 - 3.5))
+
+print(2 + 8)  #addition of two numbers. +
+print(9 - 5)  #substraction of two numbers. -
+print(5 * 3)  #multiplication of two numbers. *
+print(5 / 3)  #division of two numbers. /
+print(
+    7 // 2
+)  #floor division of two numbers. //    used to calculate approx division of two numbers.
+print(
+    5 % 3
+)  #modulus of two numbers. %    used to calculate reminder of two numbers.
+print(
+    5**3
+)  #exponential of two numbers. **    used to calculate power of two numbers.
