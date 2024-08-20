@@ -164,26 +164,10 @@ from typing import TYPE_CHECKING, SupportsComplex                           #thi
 
 
 
-#what is sequenced data type?    ???
-#sequenced data type specifies the next value like list,tuple.
 
-#list represents the list value.
-#tuple represents the tuple value.
 
-#example of sequenced data type.
-a = (1, 2, 3, 4, 5, 6, 7, 8, 9)
 
-print(a)
 
-list1 = [8, 2.3, [-4, 5], ['apple', 'banana']]
-print(
-    list1
-)  #list is a collection of different data types.it can be changed these are mutable.
-
-tuple1 = (('parrot', 'sparrow'))
-
-print(tuple1)
-#tuple is a collection of different data types.it can be changed these are immutable.
 
 #what is mapped data type????
 #mapped data type specifies the next value like dict,dict.

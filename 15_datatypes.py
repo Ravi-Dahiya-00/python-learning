@@ -86,3 +86,40 @@ b=2
 var_a=a<b
 print(var_a)
 print(type[var_a])
+
+
+
+
+
+
+
+
+
+
+
+#what is sequenced data type????
+#sequenced data type specifies the next value like list,tuple.
+
+#list represents the list value.
+#tuple represents the tuple value.
+
+#example of sequenced data type.
+a = (1, 2, 3, 4, 5, 6, 7, 8, 9)
+
+print(a)
+
+
+
+
+#1.
+list1 = [8, 2.3, [-4, 5], ['apple', 'banana']]
+print(
+    list1
+)  #list is a ordered collection of different data types.it can be changed these are mutable.
+
+
+#2.
+tuple1 = (('parrot', 'sparrow'))
+
+print(tuple1)
+#tuple is a ordered collection of different data types.it can be changed these are immutable.
