@@ -22,6 +22,33 @@ print(
 
 
 
+
+
+
+#how to write int in between the strings.
+#convert the int value into string value.
+length=len("ravi yadav")
+print(length)
+print("your name has"+str(length)+"characters")
+
+print(type(length))    #int value
+
+
+new_length=str(length)
+print(type(new_length))
+
+#for conerting into different data types we have different types.
+#1. float()
+#2.str()
+#3.int()
+
+
+print(10+float(10))
+
+
+
+
+
 #what is implicit type casting????
 #data types in python do not have the same level i.e. ordering of data types is not the same in python.
 #some of the data types have higher order and some have lower order.while performing any operation on varibles with different data types in python ,

@@ -77,3 +77,18 @@ using the wrong ternary operator'''
 
 #length(12345)                      #wrong method
 #length("12345")                    #right method
+
+
+
+
+
+
+
+
+
+
+
+
+#5.value error
+#this error happens when we want to convert some string value into integer and they cannot be converted into int data type.
+#print(10+int(ravi))
