@@ -137,4 +137,26 @@ print(tuple1)
 
 #3.
    #range:the range data type is used to represent a sequence of numbers.
-   # It provides a convenient way to generate a series of integers within a specified range
+   # It provides a convenient way to generate a series of integers within a specified range.
+
+
+
+#creating a range:
+# You can create a range object using the range() function, which takes three arguments: start, stop, and step.
+
+# The start argument specifies the starting value of the range (inclusive),
+# the stop argument specifies the stopping value of the range (exclusive),
+# and the step argument specifies the increment between consecutive numbers (default is 1).
+
+
+# Range from 0 to 9 (exclusive) with a step of 1
+range1 = range(10)
+print(list(range1))  # Output: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+ 
+# Range from 1 to 10 (exclusive) with a step of 1
+range2 = range(1, 11)
+print(list(range2))  # Output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+ 
+# Range from 0 to 10 (exclusive) with a step of 2
+range3 = range(0, 11, 2)
+print(list(range3))  # Output: [0, 2, 4, 6, 8, 10]
