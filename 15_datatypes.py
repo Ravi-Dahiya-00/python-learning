@@ -1,3 +1,5 @@
+#In Python, data types define the kind of values a variable can hold. Here are the built-in data types:
+
 #types of data type in python
 #1. numeric data type
 #2. text data type
