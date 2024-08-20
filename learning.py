@@ -146,32 +146,11 @@ from typing import TYPE_CHECKING, SupportsComplex                           #thi
 
 
 
-#for sepreating the words we use sep='~'
-#and whatever with which symbol we want to sepreate
-print('hello', 5, 6, sep='~')
-#wew cannot write something after seperate.
-#only we can use ending line after seperate.
-
-#we want to end our code with something
-#we use end='line with which we want to end our code'
-print(
-    6,
-    4,
-    9,
-    sep="~",
-    end="thanks",
-)
 
 
 
 
 
-#types of data type in python
-#1. numeric data type
-#2. text data type
-#3. boolean data type
-#4. sequenced data type
-#5. mapped data type
 
 #what is numeric data type????
 #numeric data type specifies the numeric value like int ,float,complex.
