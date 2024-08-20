@@ -1,22 +1,3 @@
-# what is hashtag # and why it is used in coding ?????
-# hastag is used for commenting the code and it is not executed by the computer.
-# this is also used for rembering the code what i am doing and also we can tell to our code partner what we are coding.
-
-
-#paragraph comment 
-#it can be written by using triple single cot 
-''''how btngwug bng  n u n vk dvn j   nf  nv  f  v i i'''  #like this 
-
-
-#don't put any punctuations in the end of the code like full stop,comma,etc.
-# print('hello world').,               #like this
-
-#Python Indentation
-#Indentation refers to the spaces at the beginning of a code line.
-
-#Where in other programming languages the indentation in code is for readability only, the indentation in Python is very important.
-
-#Python uses indentation to indicate a block of code.
 
 
 
@@ -24,763 +5,132 @@ from builtins import complex, input, int, len, print
 from typing import TYPE_CHECKING, SupportsComplex                           #this are inbuilt function in  python  and used for not showing an error.
 
 
-#for writing any line in the code
-#we use print and close bracket and double cot and single cot write our statement
-print("hello")
-print('hello world')
 
 
-#it is very sensitive language.
-#don't use greater letter in PRINT like this it will show error.
-#Print("hello world")               #it is wrong method.
 
 
 
-#some special characters used in python name with their use
-#character      #name                                       #description
 
-#()             #parentheses                                #used with functions.
-# #             #pound sign                                 #used for comments.
-# ""           #double quotation marks                     #enclose a string.
-# '   '           #single quotation marks                     #enclose a string.
-#'''  '''        #triple single quotation marks               #used for multiline comments.
 
 
 
-print("welcome to python")
-print("python is fun")
-print('problem driven')
 
 
 
-#for writing any mathematical value in the code
-#we use only close bracket while writing mathematical value.
-#we don't have to use double cot.
-print(5)
 
 
 
-#for swapping the numbers 
-#if wants to make the value of a to b and the value of b to a then we will swap the numbers by using the swapping function
-a=input("enter your first number:")
-b=input("enter your second number:")
-third=a
-a=b
-b=third
-print("a=",a)
-print("b=",a)
 
 
 
 
-#using python to perform mathematical computation.
-#print(x+y)                          #for addition
-#print(x-y)                          #for subtraction
-#print(x*y)                          #for multiplication
-#print(x/y)                          #for division
 
-#python can be used  for addition,subtraction,multiplication and division.
 
-#for addition we use + sign in between the two numbers.
-print(5 + 6)
 
-x=int(input("enter your first number:"))
-y=int(input("enter your second number:"))
-print(x+y)
 
 
 
 
 
 
-#this + sign can also be used to concatenate the two different things such aS STRING and a number.
-a=input("enter your first number:")
-b=input("enter your second number:")
-third=a
-a=b
-b=third
-print("a=" + b)
-print("b=" + b)
 
-#this is used to concatenate a string and a number.
 
+                   
 
 
 
 
 
-#for substraction we use - sign in between the two numbers.
-print(7 - 3)
 
-p=int(input("enter your first number:"))
-q=int(input("enter your second number:"))
-print(p-q)              
 
-#we should take diiferent variable for different calculation of different numbers.
 
 
 
-#for multiplication we use * sign in betwwen the two numbers.
-print(34 * 56)
-print(p*q)
 
-#we can continue with same variable if want all calculation for the same number.
 
 
 
-#for division we use / sign in between the two numbers.
-print(32 / 4)
-print(p/q)
 
 
-#compute expression
-#computeExpression.py
 
-print((10.5 + 2*3) / (45 - 3.5))
 
-#for writing both line and a no in same line we use comma in between numbers and line.
-print('hello world', 7, 5)
 
 
 
 
-#programming style and documentation:
 
-#good programming style and proper documentation make a program easy to read and prevent errors.
 
-#programming style refers to the way in which a program is written and formatted.
 
-#proper documentation refers to the written explanations of the code.
-#used in big projects to understand the code.
 
 
-#few guidlines for writting good programming style and proper documentation.
 
 
-#1. appropriate comments and comment style:
-                                  # must include a summary about the code in beginning and with every major step.
 
 
 
-#2. proper spacing:
-         # a consistent spacing style makes program clear and easy to read, and it also makes it easier to debug.
 
-# print(3+4*5)                           #wrong style
 
-# print(3 + 4 * 5)                      #good style
 
 
 
-#programming errors:
-#programming errors can be categorized into three types:
 
 
-#1.syntax error:
-              #most common error in python.
-              #syntax error results from errors in code cunstruction, such as mistypimg a statement , incorrect indentation, omitting some necessary punctuation, or using an open parenthesis without a corresponding closing parenthesis.
 
 
-#print("not used puncuation error)  
-'''puncutation error'''
 
-# easy to detect because python tells where they are and caused them.
 
-#example:
-'''File "<stdin>", line 1
-    print("not used puncuation error)
-          ^
-SyntaxError: unterminated string literal (detected at line 1)
->>>'''
 
 
 
-#2. Run-time error:
-'''Runtime errors in Python are instances where a program terminates abnormally during execution,often due to incorrect or invalid operations.These errors occur after the program has been successfully compiled, typically when the code attempts to perform operations that are logically or mathematically invalid.'''
 
 
 
 
-#example
-'''Some examples of Python runtime errors:
 
-1. division by zero
-2. performing an operation on incompatible types
-3. using an identifier which has not been defined
-4. accessing a list element, dictionary value or object attribute which doesn’t exist
-5. trying to access a file which doesn’t exist'''
 
 
 
-#3. logic error:
-'''it occures when the program does not perform the way it was intended to.
-      errors of this kind occur for a variety of reasons,
-      such as incorrect assumptions about the program's behaviour'''
 
-#example:
-'''some example of python logic errors:
 
-converting a string to an integer 
-using the wrong comprasion operator
-using the wrong logical error operator
-using the wrong arithmetic operator
-using the wrong assignment operator
-using the wrong membership operator
-using the wrong identity operator
-using the wrong bitwise operator
-using the wrong ternary operator'''
 
 
-
-#convert fahrenhit to celsius:
-print("fahrenhit 35 is celsius degree")
-print("celsius degree is" ,5/9 * (35-32))       #correct method it will show 1.6667
-
-
-
-#but if use wrong operator it will show different answer:
-print("fahrenhit 35 is celsius degree")
-print("celsius degree is" ,5 / 9 * 35 - 32)        #wrong method it will show -12.55 because we didn't tell which         calculation is to be done first.
-
-
-
-#in python, syntax errors are treated as run-time errors because they are detected by the interpreter when the program is executed.
-
-
-#in general, syntax and runtime errors are easy to find and easy to correct , because python gives indications as to where the error is and ehy they are wrong.
-
-
-#logic errors finding can be very challenging.
-
-
-
-#getting started with graphics programming:
-#TURTLE is python's built in graphics module for drawing lines,circles,and other shapes,including text.
-#it is easy to learn and simple to use.
-
-
-#drawing and adding color to a figure:
-#1. open python
-#2. import turtle
-#3. turtle.showturtle()
-#4. to draw a string 
-         #turtle.write("welcome to python")
-#5. to move the arrowhead 100 pixels forward to draw a line in the direction the arrow is pointing:
-         #turtle.forward(100)
-#6. to turn the arrowhead 90 degrees to the right:
-       #turtle.right(90)
-#7. to change the turtle's color to red:
-       #turtle.color("red")
-#8. to move the arrowhead 50 pixels forward to draw a line :
-       #turtle.forward(50)
-#9. to change the turtle's color to green:
-       #turtle.color("green")
-#10. to turn the arrowhead 30 degree to the left:
-       #turtle.left(30)
-#11. you can now close the turtle graphics windows and exit python.
-
-import turtle
-turtle.showturtle()
-turtle.write("welcome to python")
-turtle.forward(100)
-turtle.color("red")
-turtle.right(90)
-turtle.forward(40)
-turtle.left(20)
-turtle.forward(100)
-turtle.right(45)
-
-
-
-#moving pen to any location:
-
-     #when the turtle program starts, the arrowhead is at centre of the screen.
-     #coordinates of turtle are(0,0)
-     #we use goto() function to move the turtle to any location. specified location(x,y)
-
-
-turtle.goto(0,50)
-
-#to draw a circle:
-                #draw a circle using cirlce command.
-
-turtle.circle(50)   #50 is radius of circle.
-
-
-#to draw a dot:
-             #draw a dot using dot command.
-
-
-turtle.dot(50)
-
-
-# we can also use penup() and pendown() functions to move the turtle without drawing a line.
-
-
-#penup() function is used to stop drawing.
-#pendown() function is used to start drawing.
-
-turtle.penup()
-turtle.goto(50,-50)
-turtle.pendown()
-
-
-
-                    #made a olympic ring logo using turtle.
-                       # file = olympicring.py
-
-#something intersting:
-                #if we want something in design and in more than one line we can write it by using some logic.
-
-#let's see:
-          #python program to display patterns:
-
-
-print(" FFFFFFFFFF      UU            UU        NN            NNN ")
-print(" FF              UU            UU        NN N          NN  ")
-print(" FF              UU            UU        NN   N        NN  ")
-print(" FFFFFFFFF       UU            UU        NN     N      NN  ")
-print(" FF               UU          UU         NN       N    NN  ")
-print(" FF                UU        UU          NN         N  NN  ")
-print(" FF                  UUUUUUUU           NNN           NNN  ")
-
-#this was only for fun purpose but it also provided one different logic to think it about.
-
-
-#we can also create a table using print statement.
-
-print("A Program To Display The Table: ")
-print("a", 
-             "a^2",
-                         "a^3")         #written in different line for spacing in between the characters a, a^2;a^3.
-print(1,         1*1,       1*1*1)
-print(2,         2*2,       2*2*2)
-print(3,         3*3,       3*3*3)
-print(4,         4*4,       4*4*4)
-
-print((9.5*4.5-2.5*3)/(45.5-3.5))
-
-#calculate summation of series
-print("summation of series",1+2+3+4+5+6+7+8+9)
-
-
-
-print("Compute the pi value using the formula")
-print(4.0 * (1 - (1.0/3) + (1.0/5) - (1.0/7) + (1.0/9) - (1.0/11)))
-
-print(4.0 * (1 - (1.0/3) + (1.0/5) - (1.0/7) + (1.0/9) - (1.0/11) + (1.0/13)-(1.0/15)))
-
-
-
-radius=5.5
-area=radius*radius*3.14
-perimeter=2*radius*3.14
-print("area of circle is",area,"of",radius)
-print("perimeter of circle is",perimeter,"of",radius)
-
-
-
-#Calculate the area of rectangle with the width and height
-area = 4.5 * 7.9
-#Calculate the perimeter of rectangle with the width and height
-perimeter = (2 * 4.5) + (2 * 7.9)
-#display the area
-print("area of rectangle:", area)
-#display the perimeter
-print("perimeter of rectangle:",  perimeter)
-
-
-kilometers=14
-miles=kilometers/1.6
-distance=miles
-time=45.5/60
-averagespeed=distance/time
-print(averagespeed)
-
-
-
-currentpopulation=312032486
-
-#seconds in 1 year
-secondsin1year=365*24*60*60
-
-#  1 birth in every 7second.             add one birth in every 7seconds.
-#  1 death in every 13seconds.           subtract one death in every 13seconds.
-#  1 immigration in every 45seconds.     add one immmigrant every 45seconds.
-
-
-#total seconds in 1 year
-secondsin1year=365*24*60*60
-
-
-#after 1 year,number of births(7seconds = 1birth/plus)
-birthsperyear=secondsin1year//7
-print("birthsperyear",float(birthsperyear))
-
-
-#after 1 year,number of deaths(13seconds= 1death/minus)
-deathsperyear=secondsin1year//13
-print("deathperyear",float(deathsperyear))
-
-
-#after 1 year,number of immigrations(45seconds=1immigration/plus)
-immigrationperyear=secondsin1year//45
-print("immigrationperyear",float(immigrationperyear))
-
-
-#rate per year
-rateperyear=birthsperyear-deathsperyear+immigrationperyear
-print("rateperyear",float(rateperyear))
-
-
-total=rateperyear + currentpopulation
-print(total)            #1st year 
-print("populationafter2year",int(rateperyear*2)+int(currentpopulation))
-print("populationafter3year",int(rateperyear*3)+int(currentpopulation))
-print("populationafter4year",int(rateperyear*4)+int(currentpopulation))
-print("populationafter5year",int(rateperyear*5)+int(currentpopulation))
-
-
-
-
-
-#four square of same size using turtle
-import turtle
-turtle.showturtle()
-turtle.right(90)
-turtle.forward(100)
-turtle.left(90)
-turtle.forward(100)
-turtle.left(90)
-turtle.forward(100)
-turtle.forward(100)
-turtle.left(90)
-turtle.forward(100)
-turtle.left(90)
-turtle.forward(100)
-turtle.left(90)
-turtle.forward(100)
-turtle.penup()
-turtle.left(90)
-turtle.forward(100)
-turtle.left(90)
-turtle.forward(100)
-turtle.pendown()
-turtle.forward(100)
-turtle.left(90)
-turtle.forward(100)
-turtle.left(90)
-turtle.forward(100)
-turtle.penup()
-turtle.right(90)
-turtle.forward(100)
-turtle.pendown()
-turtle.right(90)
-turtle.forward(100)
-turtle.right(90)
-turtle.forward(100)
-
-
-
-
-
-#making a cross sign using turtle
-import turtle
-turtle.right(90)
-turtle.forward(100)
-turtle.penup()
-turtle.back(100)
-turtle.left(90)
-turtle.pendown()
-turtle.forward(100)
-turtle.pendown()
-turtle.back(100)
-turtle.left(90)
-turtle.pendown()
-turtle.forward(100)
-turtle.penup()
-turtle.back(100)
-turtle.left(90)
-turtle.pendown()
-turtle.forward(100)
-
-
-
-
-
-
-
-
-
-#writing a simple program
-#writing a program involves designing a strategy for solving the problemand then using a programming language to implement that srategy.
-
-
-
-#circlearea.py
-
-
-#assign a value to radius
-radius=20               #radius is now 20
-
-#compue area
-area=radius*radius*3.14159
-
-#display results
-print("the area of circle of radius",radius,"is",area)
-
-#radius is a variable that has a fix value 20 that is stored in computers memory and can be used anytime when the program needs variable.
-#python automatically figures out the data type according to the value assigned to the variable.we need not to specify what types of values are being used.
-
-
-width=5.5
-height=2
-print("area is ", width * height)
-
-miles=100
-kilometers=miles*1.609
-print("100miles have",kilometers,"kilometers")
-
-
-#INPUT function is used for taking user input
-variableradius=print(input("enter a value:"))
-
-
-#prompt the user to enter a radius
-radius=eval(input("enter a value for radius:"))                     #eval converted the string to number
-
-
-#compute area
-area=radius*radius*3.14159
-
-
-#display results
-print("the area for the circle of radius",radius,"is",area)
-
-
-#reading input from the console
-#reading console enables the program to accept input from the user.
-
-s=input("enter a value for radius:")                    #read input as a string
-radius=eval(s)                                          #conert the string to a number
-
-#int can also be used for converting the string into a number
-x=eval(input("enter your first number:"))              #if int is not used it will take it is a string
-
-
-#if user gives input rather then a number it will give runtime error.
-
-#multipe inputs from the user
-
-#computeaverage.py
-
-#prompt the user to enter three numbers
-number1=eval(input("enter the first number:"))
-number2=eval(input("enter the second number:"))
-number3=eval(input("enter the third number:"))
-
-#compute average
-average=(number1+number2+number3)/3
-
-#display results
-print("the average of",number1,number2,number3,"is",     #python will find end parenthisis in the end of line.
-      average)                                           #if it does not find it will scan next line automatically.
-                                                         #because it knows that line has not ended here.
-
-#somtimes python interpreter cannot dtermine the end of the statement written in multiple lines. we can place the LINE CONTINUATIONAL SYMBOL (\)  at the end of the line to tell the interpreter that the statement is continued on the next line.
-#example:
-
-sum=1+2+3+4+5\
-+6+7
- #it is equivalent to
-sum=1+2+3+4+5+6+7
-
-
-#identifiers
-#identifiers are the names that identify the elements such as variables and functions in a program.
-         #number1,number2,number3,average,input,eval and print are the name of the things that appear in program.
-
-#in programming terminology such names are called identifiers.
-
-
-    #an identifier is a sequence of characters that consists of letter,digits,and underscores(__).
-    #an identifier must start with a letter or an underscore.it cannot start with a digit.
-    #an identifier cannot be a keyword.(see appendix A,python keywords,for a list of keywords.)
-                    #keywords,also called reserved words.  have special meaning in python.
-                    #import is a keyword, which tells the python interpreter to import a module to the program.
-   #an identifier can be of any length.
-
-
-#legal identifiers
-               #area, radius and number1.
-
-
-#whereas 2A and d+4 are not because they don't follow the rules.
-                                                   #it is reported as a syntax error.
-
-#note:
-    #python is case sensitive language , so area, Area , AREA all are diferent.
-
-
-
-#descriptive names:
-                 #descriptive identifiers make programs easy to read.
-
-
-
-
-
-
-#what is variable and why we use it????
-#variable is like a container that holds data.
-#creating a variable is like creating a placeholder in memory
-# and assigning it some value.
-#in python,variable is created the moment you assign a value to it.
-
-#variable holds.
-#this is required in programming to do various operation without causing an error.
-
-
-
-#variable naming convention:
-                          #use lower case for variable names,as in radius and area.
-
-# using the lowercase and uppercase in betweeen such as numberOFStudents.this naming style is known as camelcase because the uppercase characters in the name resemble a camel's hump.
-
-
-
-#camel case:1 word in betwwen is uppercase characters
-#myName=ravi     
-
-
-#snake case: __ this character is used after every character for multiword lines.
-#my_name_is_=ravi                    used for multiple words in sn 1 variable
-
-
-#pascalcase: every character of first word in the line is uppercase character.
-# MyNameIsRavi=1
-
-
-
-                                  #variables,assignment statements and expressions
-
-
-
-#we can name a variable like this :
-#1. hello
-#2. hello_1
-#3. hello1
-#4. HELLO
-#5. 1 
-#6. Roll_No
-#7. SL_n6
-
-
-
-#we cannot give name to variables like this :
-#1. 1hello
-#2. 1_hello
-#3. no special characters can be used rather than ____ this
-   #hello??
-   #(hello)
- # roll no
-#4. 1=a 
-#5. "age"
-   
-   
-   
-# there are some reserved words that cannot be used as a variables.
 
    
-   
-#variables:
-          #variables are used to reference value that may be changed in the program.
-#variables are the name that reference value stored innmemory.
-#they are called "variables" because they may reference different values.
 
-#radius=1.0             area=3.14159
-#radius=2.0             area=12.56636
 
 
 
-#compute the first area
-radius=1.0
-area=radius*radius*3.14159
-print("the area is ",area,"for radius,",radius)
 
 
-#compute the second area
-radius=2.0
-area=radius*radius*3.14159
-print("the area is ",area,"for radius,",radius)
 
 
 
-#assignment statement:
-                    #the statement for assigning a value to variable is called an assignment statement.
 
-#assignment operator:(=) is used as assignment operator in python.
 
-#the syntax for assigning statements is as follows:
-variable ="expression"
 
 
-#an expression represents a computation involving values,variables,and operators that, taken together,evaluate to a value.
 
-y=1                                        #assign 1 to variable y
-radius=1.0                                 #assign 1.0 to variable radius
-x=5*(3/2) + 3*2                            #assign the value of the expression to x
-x=y+1                                      #assign the addition of y and 1 to x
-area=radius*radius*3.14159                 #computing area
 
 
-#variable can be used in both side of the = operator
-x=x+1
 
-#1=x #wrong method
 
-#in mathematics it is equation    x=2*x+1
-#in python, x=2*x+1 is an assignment statement that evalutes the expression 2*x+1 and assigns the result to x.
 
 
-#if a value is assigned to multiple variables,you can use a syntax like this:
-i=j=k=1
 
 
-#scope of a variable:
-                   #the scope of a variable is the part of the program where the variable can be refrenced.
-#variable must be defined before the use.
 
 
 
 
-#simultaneous assignment:
-                    #python also supports simultaneous assignment in syntax like this:
-#var1,var2,var3,....,varn = exp1,exp2,exp3,....,expn
-                 #it tells python to evaluate all the expressions on the right and assign them to the corresponding variable on left.
 
-x=1
-y=2
-temp=x       #save x in a temp variable
-x=y          #assign the value in y to x
-y=temp       #assign the value in temp to y
 
-#simplify the task using the following statement to swap the values of x and y.
 
-x,y=y,x   #swap x with y
 
-#simultaneous assignment can also be used to obtain multiple input in one statement 
 
-#computeaveragewithsimultaneousassignment.py
 
-#prompt the user to enter three numbers
-number1,number2,number3=eval(input("enter three numbers seperated by commas:"))
 
 
-#compute average
-average=(number1+number2+number3)/3
 
-#display result
-print("the average of",number1,number2,number3,"is",average)
 
 
 
@@ -795,33 +145,6 @@ print("the average of",number1,number2,number3,"is",average)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# for starting a new a line and continue the same statement
-#but in the next line we use \n
-print('hellofriends \nthis is my first code')  #\n for new line
-
-#for using double cot in between the lines we use \''
-print('he is a \'good\'boy')
-#for coting good in comma we use \'good\'
 
 #for sepreating the words we use sep='~'
 #and whatever with which symbol we want to sepreate
@@ -995,22 +318,25 @@ print("the sum of both the numbers is:", sum)
 
 
 
+
+
+
+
+
+
 #how to write int in between the strings.
 
 
-#user input in python
-#in python,we can take user input directly by using input() function.
-#this input function gives a return value as string/character hence we have to pass that int() to the function.
 
-#example of user input
-a = input('enter your name:')
-print("my name is",a)
-X=input("enter first number:")
-Y=input("enter second number:")
 
-print((X)+(Y))
 
-print(int(X)+int(Y))
+
+
+
+
+
+
+
 
 
 #what are string in python????
