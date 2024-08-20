@@ -983,12 +983,20 @@ a = 1.9
 b = 8
 print(a + b)
 
+
 string = "15"
 number = 7
 string_number = int(
     string)  #throws an error if the string is not a valid integer
 sum = number + string_number
 print("the sum of both the numbers is:", sum)
+
+
+
+
+
+#how to write int in between the strings.
+
 
 #user input in python
 #in python,we can take user input directly by using input() function.
