@@ -96,7 +96,6 @@ print(type[var_a])
 
 
 
-
 #what is sequenced data type????
 #sequenced data type specifies the next value like list,tuple.
 
@@ -160,3 +159,12 @@ print(list(range2))  # Output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 # Range from 0 to 10 (exclusive) with a step of 2
 range3 = range(0, 11, 2)
 print(list(range3))  # Output: [0, 2, 4, 6, 8, 10]
+
+
+#using range with loops
+# One of the most common use cases of the range data type is to use it with loops for iterating over a sequence of numbers. 
+# This allows you to perform a set of actions repeatedly for a specified number of times. Here's an example of using range with a for loop:
+
+# Looping through the range and printing the numbers
+for num in range(5):
+    print(num)
