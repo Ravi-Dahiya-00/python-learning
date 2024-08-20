@@ -969,6 +969,8 @@ print(
     int(a) + int(b)
 )  # A and B are string and these are converted into ineger by using int() function.
 
+
+
 #what is implicit type casting????
 #data types in python do not have the same level i.e. ordering of data types is not the same in python.
 #some of the data types have higher order and some have lower order.while performing any operation on varibles with different data types in python ,
