@@ -125,15 +125,6 @@ print(tuple1)
 
 
 
-
-
-
-
-
-
-
-
-
 #3.
    #range:the range data type is used to represent a sequence of numbers.
    # It provides a convenient way to generate a series of integers within a specified range.
