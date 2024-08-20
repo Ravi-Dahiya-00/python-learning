@@ -123,3 +123,18 @@ tuple1 = (('parrot', 'sparrow'))
 
 print(tuple1)
 #tuple is a ordered collection of different data types.it can be changed these are immutable.
+
+
+
+
+
+
+
+
+
+
+
+
+#3.
+   #range:the range data type is used to represent a sequence of numbers.
+   # It provides a convenient way to generate a series of integers within a specified range
