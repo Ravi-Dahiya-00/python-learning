@@ -12,8 +12,35 @@
 
 
 #precendence and associativity in python 
+
 #  operators have different levels of precedence, which determine the order in which they are evaluated. 
 
+#PEMDAS
+#1.     ()                                paranthesis
+#2.     **                                power operator                                                          right<--left
+#3.     *  /   //   %                    multiplication,division,floor division,modules                          left-->right
+#4.     +   -                             addition,subtractionleft-->right                                       left-->right
+
+
+print(5+2*3-1+10/5)
+#here both multiplication and division are present in the same statement. now we will use associativity here.
+
+#we will move left to right in 3rd and 4th 
+#we will move right to left in 2nd 
+
+#which will come first it will be operated first.
+#in that first multiplication>>division>>addition>>subtraction
+
+
+
+
+
+#the best way is to use parenthisis after every operator it will be time consuming but give less errors.
+#if we need some fix output from the same digits parenthisis will be required.
+
+
+#if we want 11 from the same digits we will use it like this:
+print(((((10+5)/3)+5)+2)-1)
 
 
 
