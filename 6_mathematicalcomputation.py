@@ -1,10 +1,28 @@
 #using python to perform mathematical computation.
+
 #print(x+y)                          #for addition
 #print(x-y)                          #for subtraction
 #print(x*y)                          #for multiplication
 #print(x/y)                          #for division
 
 #python can be used  for addition,subtraction,multiplication and division.
+
+
+
+
+
+#precendence and associativity in python 
+#  operators have different levels of precedence, which determine the order in which they are evaluated. 
+
+
+
+
+
+
+
+
+
+
 
 #for addition we use + sign in between the two numbers.
 print(5 + 6)
