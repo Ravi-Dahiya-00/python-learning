@@ -117,6 +117,50 @@ print(
 )  #list is a ordered collection of different data types.it can be changed these are mutable.
 
 
+
+
+
+#the append() method is used to add items to the list.
+
+
+
+chars = ['a', 'b', 'c', 'd']
+chars.append("abcd")
+print(chars) # will print output as follows
+
+#Output :
+['a', 'b', 'c', 'd', 'abcd']
+
+
+
+
+
+# The extend() method is used to add items of one list to be added as individual items of another list.
+
+chars = ['a', 'b', 'c', 'd']
+list2 = [1, 2, 3]
+chars.extend(list2)
+print(chars) # will print output as follows
+
+# Output : 
+['a', 'b', 'c', 'd', 1, 2, 3]
+
+# Note : Closely observe that the items of list2 are added as individual items to the chars list
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #2.
 tuple1 = (('parrot', 'sparrow'))
 

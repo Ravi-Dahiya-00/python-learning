@@ -57,6 +57,23 @@ assert 		else		import	 	pass
 break		except		in			raise		'''
 
 
+import keyword	 		# This statement is used to import the keyword module.
+print(keyword.kwlist)	# kwlist contains all the keywords of Python
+
+# to check whether a given word is a Python keyword or not, we use a built-in function iskeyword(). This function returns a boolean value, if the given word is a keyword then it returns True as output otherwise returns False.
+
+# Program - 1:
+import keyword # This will import the keyword module
+print(keyword.iskeyword('and')) # Here 'and' is a keyword so it prints True as output 
+Output: True
+
+# Program - 2:
+import keyword # This will import the keyword module
+print(keyword.iskeyword('python')) # Here 'python' is not a keyword so it prints False as output 
+Output: False
+
+
+
 
 
 
