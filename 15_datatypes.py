@@ -223,3 +223,43 @@ a = {'name': 'Ravi', 'age': '17', 'canvote': 'true'}
 
 print(a)
 
+
+
+
+
+
+
+
+
+#what is set data type?????
+# A set is a mutable data type that contains an unordered collection of items. A set is represented with { }.
+
+# Every element in the set should be unique (no duplicates) and must be immutable (which cannot be changed). But the set itself is mutable. We can add or remove items / elements from it.
+# Note: Mutable data types like list, set and dictionary cannot become elements of a set.
+
+# The set itself is mutable i.e. we can add or remove elements from the set.
+
+# The main uses of sets are:
+#  Membership testing
+# Removing duplicates from a sequence
+# Performing mathematical operations such as intersection, union, difference, and symmetric difference
+
+# Creation of sets
+# 1. One way to create a set is by using built-in function set()
+
+# Empty set
+# An empty set can be created using built-in set() function.
+
+myset = set()
+print(myset)       # Result: set()
+print(type(myset)) # <class 'set'>
+
+
+#
+# 2. Another way to create a set is to put all elements inside curly braces separated by commas.
+myset1 = {1, 2, 3} 
+print(myset1)       # Result: {1, 2, 3}
+print(type(myset1)) # Result: <class 'set'>
+# Note : Empty curly braces { } does not make an empty set in Python, it makes an empty dictionary instead. Dictionary data type is introduced in the upcoming lessons.
+test = { } 
+print(type(test)) #Result: <class 'dict'>
