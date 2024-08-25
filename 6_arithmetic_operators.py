@@ -22,6 +22,8 @@
 #4.     +   -                             addition,subtractionleft-->right                                       left-->right
 
 
+
+#associativity in python
 print(5+2*3-1+10/5)
 #here both multiplication and division are present in the same statement. now we will use associativity here.
 
@@ -31,7 +33,7 @@ print(5+2*3-1+10/5)
 #which will come first it will be operated first.
 #in that first multiplication>>division>>addition>>subtraction
 
-
+ 
 
 
 
@@ -114,3 +116,90 @@ print(
     5**3
 )  #exponential of two numbers. **    used to calculate power of two numbers.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+#assignment operator
+a=5
+a=a+2
+a+=2       #it is same as a=a+2
+a=a/2
+a/=2       #it is same as a=a/2
+
+
+a,b,c,d=2.3,4,5
+
+
+
+
+
+
+
+
+
+#conditinal opeartors
+
+# > , < , >= , <= , == , !=
+a=18
+print(a>18)   #it is true only when a is greater then 18.
+print(a<18)   #it is true only when a is smaller then 18.
+print(a<=18)   #it is true only when a is less than or equal to 18.
+print(a>=18)   #it is true only when a is grater than or equal to 18.
+print(a==18) # it is true only when a  is equal to 18.
+print(a!=18)  # it is true only when a is not equal to 18.
+print((a+2)!=18)  #we can also add something to a while giving an operation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#logical operators
+#Python logical operators are used to combine conditional statements, allowing you to perform operations based on multiple conditions.
+#1. and 
+#2. or 
+#3. not 
+
+
+
+#and 
+a,b=5,4
+print(a>4 and b<10)    #true
+print(a>4 and b<3)     #false
+
+#for and operator if all the statement are true then it will give true,
+#if one of them is false then it will give false.
+
+
+
+#or
+a,b=5,4
+print(a>4 or b<10)    #true
+print(a<4 or b<13)    #true
+
+
+''' X                       Y                       X and Y               X or Y                 not(X)                    not(Y)
+    
+1.  true                   true                      true                  true                  false                     false
+2.  true                   false                     false                 true                  false                     true
+3.  false                  true                      false                 true                  true                      false
+4.  false                  false                     false                 false                 true                      true'''
