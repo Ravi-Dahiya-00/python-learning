@@ -197,9 +197,15 @@ print(a>4 or b<10)    #true
 print(a<4 or b<13)    #true
 
 
+
+#not 
+a=False
+print(not(a))    #print true.
+
+
 ''' X                       Y                       X and Y               X or Y                 not(X)                    not(Y)
     
 1.  true                   true                      true                  true                  false                     false
 2.  true                   false                     false                 true                  false                     true
 3.  false                  true                      false                 true                  true                      false
-4.  false                  false                     false                 false                 true                      true'''
+4.  false                  false                     false                 false                 true                      true  '''
