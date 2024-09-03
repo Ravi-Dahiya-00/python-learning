@@ -1,4 +1,4 @@
-z
+
 
 
 from builtins import complex, input, int, len, print
@@ -191,7 +191,8 @@ print(nm[-4:-2])
 #21.  startswith()
 #22.  swapcase()
 #23.  title()
-
+#24.  isdigit()
+#25. istitle()
 
 #example of string methods
 
@@ -437,6 +438,24 @@ print(str1.swapcase())
 
 str1="hello friends this is a PYTHON PROGRAM"
 print(str1.title())
+
+
+
+
+#24.  istitle()
+#returns true if string is in title Case
+str1="Hello Friends"
+print(str1.istitle)
+
+
+
+#25. isdigit()
+#returns true we all characters are only digits (0-9).
+str1="1234"
+print(str1.isdigit())
+
+
+
 
 
 

@@ -6,7 +6,9 @@ print('hello world')
 
 #it is very sensitive language.
 #don't use greater letter in PRINT like this it will show error.
+
 #Print("hello world")               #it is wrong method.
+
 
 
 
@@ -17,7 +19,7 @@ print('problem driven')
 
 
 #for writing any mathematical value in the code
-#we use only close bracket while writing mathematical value.
+#we use only close paranthesis(brackets) while writing mathematical value.
 #we don't have to use double cot.
 print(5)
 

@@ -7,3 +7,5 @@
 #it can be written by using triple single cot 
 ''''how btngwug bng  n u n vk dvn j   nf  nv  f  v i i'''  #like this 
 
+"""hello guys we can also write pargraph in double triple cot also."""
+
