@@ -11,15 +11,15 @@
 
 
 
-#precendence and associativity in python 
+#precedence and associativity in python 
 
 #  operators have different levels of precedence, which determine the order in which they are evaluated. 
 
-#PEMDAS
-#1.     ()                                paranthesis
+#PEM-DAS        it is the algorithm to calculate the mathematical operations 
+#1.     ()                                parenthesis
 #2.     **                                power operator                                                          right<--left
-#3.     *  /   //   %                    multiplication,division,floor division,modules                          left-->right
-#4.     +   -                             addition,subtractionleft-->right                                       left-->right
+#3.     *  /   //   %                    multiplication,division,floor division,modules                           left-->right
+#4.     +   -                             addition,subtraction                                                    left-->right
 
 
 
@@ -31,14 +31,14 @@ print(5+2*3-1+10/5)
 #we will move right to left in 2nd 
 
 #which will come first it will be operated first.
-#in that first multiplication>>division>>addition>>subtraction
+#in that first               multiplication  >>  division  >>  addition  >>  subtraction
 
  
 
 
 
-#the best way is to use parenthisis after every operator it will be time consuming but give less errors.
-#if we need some fix output from the same digits parenthisis will be required.
+#the best way is to use parenthesis after every operator it will be time consuming but give less errors.
+#if we need some fix output from the same digits parenthesis will be required.
 
 
 #if we want 11 from the same digits we will use it like this:
@@ -74,28 +74,28 @@ print("b=" + b)
 
 
 
-#for substraction we use - sign in between the two numbers.
+#for subtraction we use - sign in between the two numbers.
 print(7 - 3)
 
 p=int(input("enter your first number:"))
 q=int(input("enter your second number:"))
 print(p-q)              
 
-#we should take diiferent variable for different calculation of different numbers.
+#we should take different variable for different calculation of different numbers.
+#we can continue with same variable if want all calculation for the same number.
 
 
 
-#for multiplication we use * sign in betwwen the two numbers.
+#for multiplication we use * sign in between the two numbers.
 print(34 * 56)
 print(p*q)
 
-#we can continue with same variable if want all calculation for the same number.
 
 
 
 #for division we use / sign in between the two numbers.
 print(32 / 4)
-print(p/q)
+print(p / q)
 
 #compute expression
 #computeExpression.py
@@ -103,7 +103,7 @@ print(p/q)
 print((10.5 + 2*3) / (45 - 3.5))
 
 print(2 + 8)  #addition of two numbers. +
-print(9 - 5)  #substraction of two numbers. -
+print(9 - 5)  #subtraction of two numbers. -
 print(5 * 3)  #multiplication of two numbers. *
 print(5 / 3)  #division of two numbers. /
 print(
@@ -133,6 +133,7 @@ print(
 a=5
 a=a+2
 a+=2       #it is same as a=a+2
+
 a=a/2
 a/=2       #it is same as a=a/2
 
@@ -147,17 +148,17 @@ a,b,c,d=2.3,4,5
 
 
 
-#conditinal opeartors
+#conditional operators
 
 # > , < , >= , <= , == , !=
 a=18
-print(a>18)   #it is true only when a is greater then 18.
-print(a<18)   #it is true only when a is smaller then 18.
-print(a<=18)   #it is true only when a is less than or equal to 18.
-print(a>=18)   #it is true only when a is grater than or equal to 18.
-print(a==18) # it is true only when a  is equal to 18.
-print(a!=18)  # it is true only when a is not equal to 18.
-print((a+2)!=18)  #we can also add something to a while giving an operation.
+print(a>18)        #it is true only when a is greater then 18.
+print(a<18)        #it is true only when a is smaller then 18.
+print(a<=18)       #it is true only when a is less than or equal to 18.
+print(a>=18)       #it is true only when a is greater than or equal to 18.
+print(a==18)       # it is true only when a  is equal to 18.
+print(a!=18)       # it is true only when a is not equal to 18.
+print((a+2)!=18)   #we can also add something to a while giving an operation.
 
 
 
@@ -196,7 +197,8 @@ a,b=5,4
 print(a>4 or b<10)    #true
 print(a<4 or b<13)    #true
 
-
+#for or operator when 1 or more statement is true it will give true.
+#if no statement is true only when it will give false.
 
 #not 
 a=False

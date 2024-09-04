@@ -8,9 +8,9 @@ print("my name is",a)
 X=input("enter first number:")
 Y=input("enter second number:")
 
-print((X)+(Y))
+print((X)+(Y))          #it will concatenate x and y.
 
-print(int(X)+int(Y))
+print(int(X)+int(Y))         #it will give sum of x and y.
 
 
 #INPUT function is used for taking user input
