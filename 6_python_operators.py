@@ -507,3 +507,50 @@ a=5
 b="5"
 print(a is b)          #returns false because a is int and b is str and have different id.
 print(a is not b)      #returns true because these are not same.
+
+
+a=5
+print(id(a))
+a=8
+print(id(a))
+print(a is a)          # it will give true because it will not compare 1st a with 2nd a.
+                       # it will compare a with itself.
+
+
+
+
+
+
+
+
+
+
+
+#Membership Operators
+'''Membership operators are used to test if a sequence is presented in an object:
+
+Operator                     	Description	                                                                   Example	
+in                            	Returns True if a sequence with the specified value
+                                 is present in the object	                                                     x in y	
+
+not in	                        Returns True if a sequence with the specified value
+                                is not present in the object                                                 	x not in y	'''
+
+
+str="jenny"
+print('y' in str)                   #true
+print('nny' in str)                 #true
+print('Y'  in str)                  #false
+print('Y' not in str)               #true
+print('e' not in str)               #false
+
+
+
+
+
+list=['hello',10,5,9]
+print('e' in list)                #false because it will check only elements in list that is hello,10,5,9
+print('hello' in list)            #true
+print(10 in list)                 #true
+print(4 not in list)              #true because for is not present in list
+print(8 in list)                  #false

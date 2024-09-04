@@ -291,7 +291,7 @@ print("the area for the circle of radius",radius,"is",area)
 weight=input("enter your body weight:")
 height=input("enter your body height")
 
-#now we have both value of weight and height but rembeber that these values are in string . first convert them into int value .
-#we can also conver them directly using int while making BMI operator 
+#now we have both value of weight and height but remember that these values are in string . first convert them into int value .
+#we can also convert  them directly using int while making BMI operator 
 BMI=(int(weight)/(int(height)**2))
 print(BMI)
