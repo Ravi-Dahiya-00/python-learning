@@ -24,7 +24,7 @@ variableradius=print(input("enter a value:"))
 #reading console enables the program to accept input from the user.
 
 s=input("enter a value for radius:")                    #read input as a string
-radius=eval(s)                                          #conert the string to a number
+radius=eval(s)                                          #convert the string to a number
 
 #int can also be used for converting the string into a number
 x=eval(input("enter your first number:"))              #if int is not used it will take it is a string
@@ -52,6 +52,6 @@ number3=eval(input("enter the third number:"))
 average=(number1+number2+number3)/3
 
 #display results
-print("the average of",number1,number2,number3,"is",     #python will find end parenthisis in the end of line.
+print("the average of",number1,number2,number3,"is",     #python will find end parenthesis in the end of line.
       average)                                           #if it does not find it will scan next line automatically.
                                                          #because it knows that line has not ended here.

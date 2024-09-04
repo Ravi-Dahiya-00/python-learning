@@ -19,7 +19,7 @@ print('problem driven')
 
 
 #for writing any mathematical value in the code
-#we use only close paranthesis(brackets) while writing mathematical value.
+#we use only close parenthesis(brackets) while writing mathematical value.
 #we don't have to use double cot.
 print(5)
 
