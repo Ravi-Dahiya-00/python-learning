@@ -9,7 +9,7 @@
 #used in big projects to understand the code.
 
 
-#few guidlines for writting good programming style and proper documentation.
+#few guidelines for writing good programming style and proper documentation.
 
 
 #1. appropriate comments and comment style:
@@ -31,6 +31,6 @@
 
 
 #writing a simple program
-#writing a program involves designing a strategy for solving the problemand then using a programming language to implement that srategy.
+#writing a program involves designing a strategy for solving the problem and then using a programming language to implement that srategy.
 
 

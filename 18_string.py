@@ -7,7 +7,7 @@
 #example of string
 name="ravi"
 friend="rohan"
-anotherfriend="lovish"
+another_friend="lovish"
 
 x=input("enter friend name:")
 
@@ -34,7 +34,7 @@ print(talk)
 
 
 #2nd 
-#method to resove this same error
+#method to resolve this same error
 #so we can enclose our string in single cot.
 
 talk='he said "he wants to eat an apple"'
@@ -43,7 +43,7 @@ print(talk)
 
 
 #3rd
-#method to resolvis same error
+#method to resolve this same error
 #so we can use single triple cot.
 
 talk='''he said "he wants to eat an apple"'''
@@ -53,7 +53,7 @@ print(talk)
 
 
 #4th
-#method to resolvis same error
+#method to resolve this same error
 #so we can use double triple cot.
 talk="""he said "he wants to eat an apple" """
 
@@ -63,7 +63,7 @@ print(talk)
 #basically we use triple cot for multiline string.
 #this help in copy and paste the string.
 
-apple='''hi ravi
+apple='''hi Ravi,
 how are you doing
 i am good
 call me later '''

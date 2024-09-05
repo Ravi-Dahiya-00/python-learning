@@ -295,3 +295,45 @@ height=input("enter your body height")
 #we can also convert  them directly using int while making BMI operator 
 BMI=(int(weight)/(int(height)**2))
 print(BMI)
+
+
+
+
+
+
+
+
+
+#how many days,weeks,months do we have left if we will die at the age of 90
+
+
+year_days=365
+year_months=12
+year_weeks=52
+
+#firstly enter your current age
+a=input("enter your current age in years:")
+
+#months of your life you have completed 
+completed_month=int(a)*12
+print(completed_month)
+#total months
+total_months=90*12
+print(total_months)
+#remaining months
+remaining_months=int(total_months)-int(completed_month)
+
+print(f"remaining months of your life are:",remaining_months)
+
+#days left
+total=90*365
+completed=int(a)*365
+remaining=total-completed
+print("your left days are:",remaining)
+
+
+#weeks left
+total=90*52
+completed=int(a)*52
+remaining=total-completed
+print("your weeks left are :",remaining)
