@@ -46,7 +46,7 @@ turtle.right(45)
 turtle.goto(0,50)
 
 #to draw a circle:
-                #draw a circle using cirlce command.
+                #draw a circle using circle command.
 
 turtle.circle(50)   #50 is radius of circle.
 
