@@ -14,4 +14,4 @@ print('he is a \'good\'boy')
 sum=1+2+3+4+5\
 +6+7
  #it is equivalent to
-sum=1+2+3+4+5+6+7
+sum=1+2+3+4+5+6+9+6
