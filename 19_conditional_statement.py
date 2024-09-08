@@ -66,3 +66,34 @@ print("thank you for visiting our shop")
 
 '''2.we can also use as many if condition as many we want to make a condition it will work properly but it is not right way to do this because 
    it will scan all the if conditions and it is not a efficient.'''
+
+number=int(input("enter a number between 1 to 4:"))
+if number==1:
+    print("one")
+if number==2:
+    print("two")
+if number==3:
+    print("three")
+if number==4:
+    print("four")
+else:
+    print("you did not enter number between 1 to 4")
+
+
+
+
+
+
+
+
+
+a=int(input("enter a number:"))
+if a%2==0:
+    print("even")
+    if a>30:
+        print("number is greater than 30....great!!")
+print("byy")
+
+#second condition will be checked only if first condition is true.
+
+
