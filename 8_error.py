@@ -4,17 +4,17 @@
 
 #1.syntax error:
               #most common error in python.
-              #syntax error results from errors in code cunstruction, such as mistypimg a statement , incorrect indentation, omitting some necessary punctuation, or using an open parenthesis without a corresponding closing parenthesis.
+              #syntax error results from errors in code construction, such as mistyping a statement , incorrect indentation, omitting some necessary punctuation, or using an open parenthesis without a corresponding closing parenthesis.
 
 
-#print("not used puncuation error)  
-'''puncutation error'''
+#print("not used punctuation error)  
+'''punctuation error'''
 
 # easy to detect because python tells where they are and caused them.
 
 #example:
 '''File "<stdin>", line 1
-    print("not used puncuation error)
+    print("not used punctuation error)
           ^
 SyntaxError: unterminated string literal (detected at line 1)
 >>>'''
@@ -39,15 +39,15 @@ SyntaxError: unterminated string literal (detected at line 1)
 
 
 #3. logic error:
-'''it occures when the program does not perform the way it was intended to.
+'''it occurs when the program does not perform the way it was intended to.
       errors of this kind occur for a variety of reasons,
-      such as incorrect assumptions about the program's behaviour'''
+      such as incorrect assumptions about the program's behavior'''
 
 #example:
 '''some example of python logic errors:
 
 converting a string to an integer 
-using the wrong comprasion operator
+using the wrong comparison operator
 using the wrong logical error operator
 using the wrong arithmetic operator
 using the wrong assignment operator

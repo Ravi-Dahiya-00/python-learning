@@ -8,7 +8,8 @@ print('he is a \'good\'boy')
 
 
 
-#sometimes python interpreter cannot determine the end of the statement written in multiple lines. we can place the LINE CONTINUATIONAL SYMBOL (\)  at the end of the line to tell the interpreter that the statement is continued on the next line.
+'''sometimes python interpreter cannot determine the end of the statement written in multiple lines. we can place the LINE CONTINUATION SYMBOL (\)  
+at the end of the line to tell the interpreter that the statement is continued on the next line.'''
 #example:
 
 sum=1+2+3+4+5\

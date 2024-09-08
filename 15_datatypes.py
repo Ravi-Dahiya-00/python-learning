@@ -21,7 +21,7 @@
 #numeric data type specifies the numeric value like int ,float,complex.
 
 
-#int:represensts the integer value.
+#int:represents the integer value.
 #float:represents the floating value.
 #complex:represents the complex value.
 
@@ -218,7 +218,7 @@ for num in range(5):
 #dict represents the dict value.
 #dict represents the dict value.
 
-#exaple of mapped data type.
+#example of mapped data type.
 a = {'name': 'Ravi', 'age': '17', 'canvote': 'true'}
 
 print(a)
