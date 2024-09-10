@@ -62,6 +62,13 @@ else:
 print("thank you for visiting our shop")
 
 
+#we can also make condition under the else part.
+#it is not necessary to create the condition under the if part.
+
+
+
+
+
 #1.we can use as many elif as many condition we want to make under the if condition.
 
 '''2.we can also use as many if condition as many we want to make a condition it will work properly but it is not right way to do this because 
