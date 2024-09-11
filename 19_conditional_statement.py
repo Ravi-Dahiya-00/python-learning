@@ -2,7 +2,6 @@
  if it happens write these 
  else write this.'''
 
-height=int(input("enter your height in feet:" ))
 
 #it can also be written as
 #if(height>3):
@@ -26,10 +25,6 @@ if number%2==0:
     print("it is even number")
 else:
     print("it is odd number")
-
-
-
-
 
 
 
@@ -104,3 +99,35 @@ print("byy")
 #second condition will be checked only if first condition is true.
 
 
+
+
+
+#multiple if statements
+#we can use multiple if statements to evaluate multiple conditions as we have shown in the above problems.
+#this if checks the statement in all the conditions so this is not a good method.
+
+
+#lets see one more problem
+height=int(input("Enter your height:"))
+bill=0
+if height>3:
+    print("you can ride")
+    age=int(input("enter your age:"))
+    if age<12:
+        print("ticket price is  150rs")
+        bill=150
+    elif age<18:
+        print("ticket price is 250rs")
+        bill=250
+    else :
+        print("ticket price is 500rs")
+        bill=500
+    
+    photo=input("do you want to take photos yes or no.")
+    if photo == "yes":
+        bill=bill+50
+    print(f"your total bill is {bill}")
+else:
+    print("cant ride")
+
+    

@@ -1,11 +1,11 @@
 # #we have to take a two or more digit number from the user and add all the digits of the number by using addition.
 
-# x=input("enter a two digit number:")
-# a=x[0]
-# b=x[1]
+x=input("enter a two digit number:")
+a=x[0]
+b=x[1]
 
-# sum=int(a)+int(b)
-# print(sum)
+sum=int(a)+int(b)
+print(sum)
 
 
 
@@ -21,24 +21,24 @@
 # #formula=(weight/height**2)
 
 # #taking users weight and height input
-# weight=float(input("enter your body weight in kilograms:"))
-# height=float(input("enter your body height in meter:"))
+weight=float(input("enter your body weight in kilograms:"))
+height=float(input("enter your body height in meter:"))
 
 # #now we have both value of weight and height but remember that these values are in string . first convert them into int value .
 # #we can also convert  them directly using int while making BMI operator 
-# BMI=weight/height**2
-# print(BMI)
+BMI=weight/height**2
+print(BMI)
 
-# if BMI <18.5:
-#     print(f"your BMI is {BMI} and you are underweight.")
-# elif BMI<25 :
-#     print(f"your BMI is {BMI} and you have normal weight.")
-# elif BMI<30 :
-#     print(f"your BMI is {BMI} and you are overweight.")
-# elif BMI<35 :
-#     print(f"your BMI is {BMI} and you are obese.")
-# else:
-#     print(f"your BMI is {BMI} and you are clinically obese.")
+if BMI <18.5:
+    print(f"your BMI is {BMI} and you are underweight.")
+elif BMI<25 :
+    print(f"your BMI is {BMI} and you have normal weight.")
+elif BMI<30 :
+    print(f"your BMI is {BMI} and you are overweight.")
+elif BMI<35 :
+    print(f"your BMI is {BMI} and you are obese.")
+else:
+    print(f"your BMI is {BMI} and you are clinically obese.")
 
 
 
@@ -72,4 +72,38 @@ else:
     print("not a leap year")
     
 
-      
+
+
+
+
+
+
+
+
+
+#pizza ordering program
+size=input("which pizza do you want to take?? S/M/L")
+bill=0
+if size=="S":
+    print("price for small pizza is 100rs")
+    bill=100
+elif size=="M":
+    print("price for medium pizza is 200rs")
+    bill=200
+else:
+    print("price for large pizza is 300")
+    bill=300
+peprino=input("do you want to add peprino?? yes/no")
+if peprino=="yes":
+     if size=="S":
+       print("extra charges for peprino is 30rs for small")
+       bill=bill+30
+     else:
+         print("extra charges for peprino is 50rs for medium and large")
+         bill=bill+50
+cheese=input('do you want extra cheese?? yes/no')
+if cheese=='yes':
+    print("extra charge for cheese is 20rs for small medium and large pizza")
+    bill=bill+20
+print(bill)
+    
