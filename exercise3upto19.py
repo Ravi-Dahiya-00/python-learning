@@ -107,3 +107,54 @@ if cheese=='yes':
     bill=bill+20
 print(bill)
     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Love calculator
+
+a=input("enter your name : ")
+b=input("enter your crush name : ")
+
+a=a.lower()
+b=b.lower()
+
+c=(a+b)
+
+d=c.count('t')
+e=c.count('r')
+f=c.count('u')
+g=c.count('e')
+
+true= d+e+f+g
+
+
+h=c.count('l')
+i=c.count('o')
+j=c.count('v')
+k=c.count('e')
+
+love=h+i+j+k
+
+love_score=str(true)+str(love)
+print(f"you are in {love_score} percent love with your partner.")
+if love_score<40:
+   print('this is not good.')
+   print('increase your love towards your partner.')
+elif love_score<80:
+   print('you are in good in love with your partner.')
+else:
+   print("you have true love with your partner.")

@@ -93,6 +93,12 @@ print(type[var_a])
 
 
 
+#mutable:
+        # these can be change after creating.
+
+#immutable:
+         #these cannot be changed after creating once.
+
 
 
 
@@ -114,8 +120,8 @@ print(a)
 list1 = [8, 2.3, [-4, 5], ['apple', 'banana']]
 print(
     list1
-)  #list is a ordered collection of different data types.it can be changed these are mutable.
-
+)  #list is a ordered collection of different data types and enclosed by square brackets and separated by commas.it can be changed these are mutable.
+#we can store int,str,boolean,float and many more data types in list. 
 
 
 
