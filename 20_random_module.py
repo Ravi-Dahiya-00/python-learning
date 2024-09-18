@@ -26,3 +26,17 @@ if num==1 :
     print("heads")
 else:
     print("tails")
+
+
+
+
+
+
+
+
+#random bill paying code
+l=input("enter name separated by comma:")
+
+name=l.split(',')
+b=random.choice(name)
+print(f"{b}will pay the bill")

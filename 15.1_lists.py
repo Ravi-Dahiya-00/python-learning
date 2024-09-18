@@ -183,3 +183,36 @@ print(list)             #it will remove only first 2 from the code
 list.pop()                 #we can also provide which element we want to remove.   pop(2)
 print(list)                 #it will return all the elements
 print(list.pop())               #it will print which item is removed 
+
+
+
+
+
+
+
+
+
+
+#nested list in python:
+#we can have another list in a list . 
+list1=[1,2,3[4,5,6],23,5]            #[4,5,6] is a different list between the list.
+
+#we can access this list :
+print(list1[3])
+
+#we can also access the elements of this list that is present between the list1
+print(list1[3][2])
+
+#we can also do slicing in the list present in between the list1
+print(list1[3][0:2])
+
+#we can also skip the words in between the list 
+print(list1[3][::2])
+
+
+
+
+
+list2=[23.10,20,10,["ram","mohan","shyam"],23,'rao',12]
+print(len(list2))
+print(list2[3][2])
