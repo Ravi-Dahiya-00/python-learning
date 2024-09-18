@@ -47,6 +47,22 @@ def f1(n1,*S):
         print(s1)
 
 
+def display(**kwargs):
+    for k,v in kwargs.items():
+        print(k,"=",v)
+display(n1=10,n2=20,n3=30)
+display(rno=100,name="durga",marks=70,subject="java")
+
+
+
+
+
+
+
+#function,module,library:
+# 1. A group of lines with some name is called a function.
+# 2. A group of function saved to a file is called function.
+# 3. a group of modules is nothing but library.
 
 
 
@@ -55,21 +71,21 @@ def f1(n1,*S):
 
 
 
+#global keyword:
+# 1. to declare global variable inside function
+# 2. to make global variable available to function so that we can perform required modification.
+
+a=10
+def f1():
+    a=777
+    print(a)
 
 
+def f2():
+    print(a)
 
-
-
-
-
-
-
-
-
-
-
-
-
+f1()
+f2()
 
 
 
