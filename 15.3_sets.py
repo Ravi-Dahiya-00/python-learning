@@ -69,11 +69,122 @@ print(set1)
 print(len(set1))
 
 set1.clear()   #empty set
-set1.pop()     #removes any random item from this set
-print(set1.pop())  # show the removed item
+# set1.pop()     #removes any random item from this set
+set5={1,2,3,4,5}
+print(set5.pop())  # show the removed item
 
 
 
 
 #we can only add only immutable items in sets like tuple,string , int , float etc.
 #we cannot add mutable items like list.
+
+
+
+
+
+
+
+
+
+
+
+# operation on sets
+set1={1 ,2, 3 ,4 , 5 , 6, 7 }
+set2={5 ,6 , 7 , 8 , 9, 10}
+set3={1,2,3,4,111,23,34,45,34,34}
+
+
+print(set1.union(set2))
+print(set2.union(set1,set3))
+print(set1 | set2 | set3)       #union for more than 2 sets
+
+
+
+
+
+#difference in both methods is this the first method can change a list , tuple into a set to perform the operations.
+#2nd method performs operations only on set.
+
+print(set1.union("156"))
+
+
+set1.update(set2)
+set1 |= set2   #it also updates the set
+print(set1)
+
+
+
+
+
+set1.intersection(set2)
+set1.intersection(set2,set3)
+print(set1)
+print(set1)
+set1 & set2        #used for intersection
+
+
+
+set1.intersection_update(set2)
+print(set1)
+
+set1.intersection_update(('1234'))
+print(set1)
+
+
+
+
+set1={"ravi","vipin","ankit","omm","harsh"}
+set2={"ravi","deepu","vinay"}
+set3={"vinay","amit","ravi"}
+
+print(set1.difference(set2))
+print(set1 - set2)
+
+print(set1.difference(('ankit','omm')))
+
+
+print(set1.difference(set2,set3))
+
+
+print(set2.difference_update(set1))
+
+
+print(set1.symmetric_difference(set2))
+print(set1^set2^set3)
+
+
+set1.symmetric_difference_update(('12'))
+
+
+
+set1={1,2,3,4,5}
+set2={4,5,6,7,8}
+
+
+print(set1.isdisjoint(set2))
+print(set1.isdisjoint([6,7,8]))
+
+
+
+print(set1.issubset(set2))
+print(set1<= set2)
+print(set1.issubset([1,2,3,4,5,6,7,8]))
+
+#set1 is subset of set2 if every element of set1 is in set2.
+
+
+
+print(set1.issuperset(set2))
+print(set1>=set2)
+print(set1.issuperset([1,2,3]))
+
+#set1 is superset of set2 if set1 contains every element of set2.
+
+
+
+
+set2.clear()      #this will clear elements only.
+print(set2)
+
+del set2           #this will delete the element as well as set also
