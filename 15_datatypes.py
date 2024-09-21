@@ -240,7 +240,9 @@ print(a)
 #what is set data type?????
 # A set is a mutable data type that contains an unordered collection of items. A set is represented with { }.
 
-# Every element in the set should be unique (no duplicates) and must be immutable (which cannot be changed). But the set itself is mutable. We can add or remove items / elements from it.
+# Every element in the set should be unique (no duplicates) and must be immutable (which cannot be changed).
+#  But the set itself is mutable. We can add or remove items / elements from it.
+
 # Note: Mutable data types like list, set and dictionary cannot become elements of a set.
 
 # The set itself is mutable i.e. we can add or remove elements from the set.
