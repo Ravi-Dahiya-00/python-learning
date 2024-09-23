@@ -138,7 +138,22 @@ def factorial(n):
 
 #lambda function
 n=2
-lambda n:n*n
+lambda n:n*n 
+
+
+
+
+s=lambda n:n*n
+print(s(4))
+print(s(5))
+
+
+
+s= lambda a,b:a+b
+print(s(10,20))
+a=int(input())
+b=int(input())
+print(s(a,b))
 
 
 
@@ -147,8 +162,15 @@ lambda n:n*n
 
 
 
+# h
 
 
+
+l=[0,5,10,15,20,25,30]
+l1=list[filter(lambda x:x%2==0,l)]
+print(l1)
+l2=list(filter(lambda x:x%2!=0,1))
+print(l2)
 
 
 

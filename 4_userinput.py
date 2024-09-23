@@ -18,6 +18,12 @@ variableradius=print(input("enter a value:"))
 
 
 
+# Basic usage of eval function.
+x = 5
+result = eval('x + 10')
+print(result)  # Output: 15
+
+eval('3 * (4 + 5)')  # Output: 27
 
 
 #reading input from the console

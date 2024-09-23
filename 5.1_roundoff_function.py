@@ -23,7 +23,7 @@ print(round(674,2))           #no effect returns 674
 print(round(674,0))           #no effect returns 674
 print(round(674,-1))          #this negative(-) will effect some changes
 
-#it gives number that is equal to       10^(-no. of digits)
+#it gives number that is equal to       10^( -- no. of digits )
                     #let's see here
                #  10^(-*-1) = 10^1 = 10
 # this will round off to nearest multiple of 10

@@ -107,13 +107,13 @@ print(9 - 5)  #subtraction of two numbers. -
 print(5 * 3)  #multiplication of two numbers. *
 print(5 / 3)  #division of two numbers. /
 print(
-    7 // 2
-)  #floor division of two numbers. //    used to calculate approx division of two numbers.
+    7 // 2                                #output=3
+)  #floor division of two numbers. //    used to calculate approx division of two numbers.  
 print(
-    5 % 3
+    5 % 3                                 #output=2
 )  #modulus of two numbers. %    used to calculate reminder of two numbers.
 print(
-    5**3
+    5**3                                  #output=125
 )  #exponential of two numbers. **    used to calculate power of two numbers.
 
 
@@ -158,7 +158,7 @@ print(a<=18)       #it is true only when a is less than or equal to 18.
 print(a>=18)       #it is true only when a is greater than or equal to 18.
 print(a==18)       # it is true only when a  is equal to 18.
 print(a!=18)       # it is true only when a is not equal to 18.
-print((a+2)!=18)   #we can also add something to a while giving an operation.
+print((a+2)!=18)   #we can also add something to it while giving an operation.
 
 
 
