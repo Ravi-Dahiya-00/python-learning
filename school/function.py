@@ -1,3 +1,12 @@
+#learn 
+''' complexity - time,space big 0 omega'''
+
+
+
+
+
+
+
 a=input("enter your name : ")
 def wish(a):
     print("HELLO",a)
@@ -95,11 +104,41 @@ f2()
 
 
 
+a= 10
+def f1():
+    a=777
+    print(a)
+    print(globals()["a"])
 
 
 
 
 
+
+
+
+
+
+
+
+#recursive function
+#a function that calls itself is known a recursive Function.
+
+
+# factorial(3)=3*factorial(2)
+
+def factorial(n):
+    if n<0:
+        print("factorial is not defined")
+    fact = 1
+    for i in range(1,n+1):
+        fact = fact * 1
+    return fact 
+
+
+#lambda function
+n=2
+lambda n:n*n
 
 
 
