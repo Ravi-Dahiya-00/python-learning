@@ -20,7 +20,9 @@ a=range(20,-20,-2)
 for i in a:
     print(i)
 
-
+a="ravi"
+print(a[-1,-4])
+# this will give empty because we cannot do negative slicing both
 a=range(-1,-10,-2)
 for i in a:
     print(i)

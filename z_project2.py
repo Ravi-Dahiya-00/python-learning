@@ -54,6 +54,6 @@ new_pass=""                      #new empty variable for converting the list int
 for character in password:
     new_pass+= character
 
-#in this for loop all the characters of the list one by one will be taken and will be converted to the string and added to the new_pass as a string.
+#in this for loop all the characters of the list one by one will be taken and will be converted to the string and added to the new_pass fas a string.
 
 print(new_pass)
