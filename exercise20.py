@@ -19,7 +19,7 @@ print(f"{row1}\n{row2}\n{row3}")
 
 
 
-#rock paper scissor
+# rock paper scissor
 
 import random
 a= " 0 for scissor"
