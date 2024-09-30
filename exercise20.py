@@ -47,3 +47,22 @@ elif user==2 and comp==1:
     print("computer wins")
 else:
     print("wrong output select only 0,1,2")
+
+
+
+
+
+
+
+
+
+
+total=0
+for i in range(0,101):
+    if i%2==0:
+        total=total+i
+    elif i==1:
+        total=total+i
+    elif i==100:
+        total=total+i
+print(total)

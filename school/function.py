@@ -162,7 +162,7 @@ print(s(a,b))
 
 
 
-# h
+# 
 
 
 
@@ -177,10 +177,38 @@ print(l2)
 
 
 
+def square(x):
+    def cube(y):
+        return y**3
+    return cube
 
 
 
 
+
+
+
+
+
+
+#recursion function
+n=int(input())
+def fun1(n):
+    if n > 0:
+        print("fun1:" , n)
+        fun2(n-1)
+
+
+def fun2(n):
+    if n > 0:
+        print("fun2:" , n)
+        fun3(n-1)
+
+ 
+def fun3(n):
+    if n> 0:
+        print("fun3:", n)
+        fun1(n-1)
 
 
 
