@@ -1,3 +1,5 @@
+from openai.types import ChatModel
+
 #1.
 list1 = [8, 2.3, [-4, 5], ['apple', 'banana']]
 print(

@@ -1,6 +1,9 @@
 # for starting a new a line and continue the same statement
+
 #but in the next line we use \n
+
 print('hello friends \nthis is my first code')  #\n for new line
+
 
 #for using double cot in between the lines we use \''
 print('he is a \'good\'boy')
