@@ -9,7 +9,7 @@ print('hello friends \nthis is my first code')  #\n for new line
 print('he is a \'good\'boy')
 #for coting good in comma we use \'good\'
 
-
+print('hello "friends" ')
 
 '''sometimes python interpreter cannot determine the end of the statement written in multiple lines. we can place the LINE CONTINUATION SYMBOL (\)  
 at the end of the line to tell the interpreter that the statement is continued on the next line.'''

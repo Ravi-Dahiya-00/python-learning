@@ -1,4 +1,4 @@
-from openai.types import ChatModel
+# from openai.types import ChatModel
 
 #1.
 list1 = [8, 2.3, [-4, 5], ['apple', 'banana']]
@@ -15,7 +15,8 @@ print(
 
 
 chars = ['a', 'b', 'c', 'd']
-chars.append("abcd")
+chars[1]='abcd'
+print(chars)
 print(chars) # will print output as follows
 
 #Output :
@@ -72,7 +73,7 @@ chars[1:3]=['hii','hello']
 #indexing in python:
 '''In Python, indexing starts from 0, which means the first element in a sequence is at position 0,
  the second element is at position 1, and so on.
-
+x
 To access an element in a sequence, you can use square brackets [] with the index of the element you want to access.'''
 
 my_list = ['apple', 'banana', 'cherry', 'date']
@@ -100,7 +101,7 @@ print(my_list[2:]) # output: ['cherry', 'date']
 
 
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-odd_numbers = numbers[::2]
+odd_numbers = numbers[1:5:2]
 print(odd_numbers) # output: [1, 3, 5, 7, 9]
 
 #  The ::2 slice means that we are selecting every other element starting from the first element,
@@ -159,7 +160,7 @@ print(list[::3])      #it will do complete this thing with complete list
 
 
 
-list.sort()
+list.sort()           #conver in asscending order
 print(list)
 
 
@@ -169,11 +170,10 @@ print(list)         #dont work in for loop
 print(list[::-1])         #it will work every time 
 
 
+print(min(list))             #this will give the minimum value that has minimum according to ord
 
-print(min(list))
 
-
-print(max(list))
+print(max(list))             #thi will give max value acc to ord 
 
 
 
@@ -197,11 +197,11 @@ print(list.pop())               #it will print which item is removed
 
 #nested list in python:
 #we can have another list in a list . 
-list1=[1,2,3[4,5,6],23,5]            #[4,5,6] is a different list between the list.
+list1=[1,2,3,[4,5,6],23,5]            #[4,5,6] is a different list between the list.
 
 #we can access this list :
 print(list1[3])
-
+ 
 #we can also access the elements of this list that is present between the list1
 print(list1[3][2])
 

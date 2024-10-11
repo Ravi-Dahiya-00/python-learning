@@ -83,9 +83,11 @@ print(a, b)
 #use of boolean data type in the real world.
 a=1
 b=2
-var_a=a<b
-print(var_a)
-print(type[var_a])
+d=a<b
+print(d)
+
+
+print(type[d])
 
 
 
