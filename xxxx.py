@@ -1,12 +1,17 @@
-for i in range(1,20000000000000):
-    if i==2:
-        print(2)
-    elif i==3:
-        print(3)
-    elif i==5:
-        print(5)
-    elif i%2==0 or i%3==0 or i%5==0:
-       pass
+def hollow_square(n):
+    # Top side of the square with spaces between stars
+    if n > 1:
+        print("* " + "  " * (n - 2) + "*")
     else:
-        print(i)
-import math
+        print("*")
+    
+    # Middle part of the square (if n > 2 to have space in between)
+    for i in range(n - 2):
+        print("*" + " " * (2 * (n - 2) + 1) + "*")
+    
+    # Bottom side of the square with spaces between stars (only if n > 1)
+    if n > 1:
+        print("* " + "  " * (n - 2) + "*")
+
+# Test with the example input
+hollow_square(4)

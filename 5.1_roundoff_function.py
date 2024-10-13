@@ -21,6 +21,9 @@ print(round(6.5))           #give 6 because nearest even int is 6.
 #some points
 print(round(674,2))           #no effect returns 674 
 print(round(674,0))           #no effect returns 674
+
+
+
 print(round(674,-1))          #this negative(-) will effect some changes
 
 #it gives number that is equal to       10^( -- no. of digits )
@@ -39,6 +42,9 @@ print(round(674,-2))
 
 print(round(674,-3))
 #this will return 1000 we can calculate it by formula.
+
+print(round(274,-3))
+#this will give zero
 
 
 print(round(674,-4))

@@ -23,6 +23,9 @@ calc_sum(5,6)                                        #called this function to pe
 
 
 
+
+
+
 def greet():             #this is function is defined
     print("hii")            #this is block of code in the function
     print("ravi")
@@ -33,6 +36,93 @@ greet()                         #this is we can call any function multiple times
 
 a = greet()
 print(a)                #none because the function which doesn't return any value that gives none
+
+
+
+
+
+
+
+
+
+
+
+
+def greet_and_ask_age(name):
+    # Print the greeting using the provided name
+    print("Hello, " + name + "!")
+    
+    # Ask for the user's age
+    age = input("Hi " + name + ", what is your age? ")
+    
+    # Print the age in the desired format
+    print(name + ", your age is " + age + ".")
+
+# Call the function with the direct value "Ram"
+greet_and_ask_age("Ram")
+
+
+
+
+
+
+
+
+
+'''
+Return Statement
+Definition:
+
+The return statement is used in a function to send back a value to the caller. It ends the function's execution.
+
+'''
+
+def add(a, b):
+    return a + b
+
+result = add(5, 3)  # result is now 8
+
+
+'''
+Usage:
+
+The value returned can be stored in a variable or used directly in expressions.
+'''
+
+'''
+Direct Function Call
+Definition:
+
+A direct function call involves invoking a function and passing values (arguments) without storing them in variables first.
+Example:
+'''
+def greet(name):
+    print("Hello, " + name + "!")
+
+greet("Alice")  # Outputs: Hello, Alice!
+
+'''
+Usage:
+
+This method is useful for quick, one-time usage of constants or literals.
+'''
+
+'''
+Key Differences
+Return Statement:
+
+Allows for outputting values from functions to be used later. Essential for calculations or data processing within a program.
+Direct Function Call:
+
+Simplifies code when the values are constant or known. It avoids unnecessary variable declarations for single-use cases.'''
+
+
+
+
+
+
+
+
 
 
 def calc_average(a,b,c):

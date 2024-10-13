@@ -22,3 +22,22 @@ def prime_checker(n):
 
 
 prime_checker(11)
+
+
+
+
+
+
+
+
+
+#printing name with using loop and manually 
+
+count=1
+def printer(name):
+    global count
+    if count<=10:
+        print(name)
+        count=count+1
+        printer(name)
+printer("ravi")
