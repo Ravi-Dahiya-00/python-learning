@@ -218,3 +218,13 @@ print(list1[3][::2])
 list2=[23.10,20,10,["ram","mohan","shyam"],23,'rao',12]
 print(len(list2))
 print(list2[3][2])
+
+
+
+
+
+
+
+
+
+
