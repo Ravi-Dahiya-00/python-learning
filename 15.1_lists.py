@@ -57,7 +57,7 @@ print(chars) # will print output as follows
 
 chars[1:3]=['hii','hello']
 
-
+print(chars)              #output=['a', 'hii', 'hello', 'd', 1, 2, 3]
 
 
 
@@ -81,8 +81,8 @@ print(my_list[0]) # output: 'apple'
 print(my_list[1]) # output: 'banana'
 
 
-#negative indexing
-print(my_list[-2])    #it starts from -1
+#negative indexing              #it starts from -1
+print(my_list[-2])          #output: 'cherry'
 
 # Slicing in Python
 '''Slicing is the process of accessing a sub-sequence of a sequence by specifying a starting and ending index. 

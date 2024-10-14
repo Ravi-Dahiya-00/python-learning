@@ -11,7 +11,7 @@ listener = sr.Recognizer()
 engine = pyttsx3.init()
 voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[1].id)
-engine.setProperty('rate', 15000) 
+engine.setProperty('rate', 150) 
 
 def talk(text):
     engine.say(text)
@@ -58,7 +58,7 @@ def run_alexa():
         webbrowser.get().open(url)
         print('Here is what I found for ' + search)
         talk('Here is what I found for ' + search)
-
+    
     elif 'map' in command:
         location = command.replace('map', '')
         url = 'https://google.nl/maps/place/' + location

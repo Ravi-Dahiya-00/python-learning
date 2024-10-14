@@ -1,4 +1,4 @@
-#split function
+#1. split function
 '''
 1. The split() Function
 Purpose: The split() function is used to divide a string into a list of substrings based on a specified delimiter.
