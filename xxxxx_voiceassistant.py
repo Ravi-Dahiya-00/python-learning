@@ -73,12 +73,16 @@ def run_alexa():
 
     elif 'tell me about' in command:
         ask = command.replace('tell me about', '')
-        info = wikipedia.summary(ask, 2)
-        print(info)
-        talk(info)
-
-    elif 'how are you' in command:
-        talk('I am fine. Thank you! How about you?')
+        try:
+            info = wikipedia.summary(ask, sentences=2)
+            print(info)
+            talk(info)
+        except wikipedia.exceptions.PageError:
+            print('Sorry, I could not find information on that topic.')
+            talk('Sorry, I could not find information on that topic.')
+        except wikipedia.exceptions.DisambiguationError as e:
+            print('There are multiple results for this topic. Please be more specific.')
+            talk('There are multiple results for this topic. Please be more specific.')
 
     elif 'what are you doing' in command:
         talk('Hmm... I am busy helping you.')
