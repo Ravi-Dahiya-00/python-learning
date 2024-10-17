@@ -84,8 +84,8 @@ def run_alexa():
             print('There are multiple results for this topic. Please be more specific.')
             talk('There are multiple results for this topic. Please be more specific.')
 
-    elif 'what are you doing' in command:
-        talk('Hmm... I am busy helping you.')
+    elif 'sex' in command:
+        talk('Hmm...yes we will do sex at night.')
 
     elif 'joke' in command:
         joke = pyjokes.get_joke()
